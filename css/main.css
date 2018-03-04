@@ -1,0 +1,106 @@
+.navbar {
+  width: 100%;
+  height: 10%;
+  padding-top: 50px;
+}
+
+#navbar-elts {
+  list-style-type: none;
+  text-align: center;
+  margin: 0 auto;
+}
+
+#navbar-elts li {
+  display: inline;
+  font-family: 'Poppins', sans-serif;
+  font-size: 25px;
+  color: gray;
+}
+
+#navbar-elts li a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#navbar-elts li a:hover {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.page-meat {
+  width: 100%;
+  height: 70%;
+}
+
+.about-me-pic {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  position: relative;
+  float: right;
+  margin: 10px;
+}
+
+.about-me-pic img {
+  display: inline;
+  margin: 0 auto;
+  height: 100%;
+  width: auto;
+}
+
+.about-me {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.about-me-text {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.about-me-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+}
+
+.link-cont {
+  width: 100%;
+}
+
+.links {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+  color: gray;
+  text-decoration: none;
+}
+
+.link {
+  color: inherit;
+  display: inline;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-decoration: none;
+
+}
+
+.link:hover {
+  color: black;
+}
+
+@media only screen and (max-width: 700px) {
+  .about-me-pic {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    position: relative;
+    margin: 10px auto;
+    float: none;
+  }
+}
