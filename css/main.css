@@ -34,12 +34,11 @@
 }
 
 .about-me-pic {
-  width: 250px;
-  height: 250px;
+  width: 200px;
+  height: 200px;
   position: relative;
   overflow: hidden;
   border-radius: 50%;
-  position: relative;
   float: right;
   margin: 10px;
 }
@@ -47,8 +46,8 @@
 .about-me-pic img {
   display: inline;
   margin: 0 auto;
-  height: 100%;
-  width: auto;
+  width: 100%;
+  height: auto;
 }
 
 .about-me {
@@ -92,7 +91,7 @@
   color: black;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 1000px) {
   .about-me-pic {
     width: 300px;
     height: 300px;
@@ -102,5 +101,8 @@
     position: relative;
     margin: 10px auto;
     float: none;
+  }
+  .about-me {
+    width: 80%;
   }
 }
