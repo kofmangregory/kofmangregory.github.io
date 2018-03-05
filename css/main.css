@@ -93,16 +93,21 @@
 
 @media only screen and (max-width: 1000px) {
   .about-me-pic {
-    width: 25rem;
-    height: 25rem;
+    width: 35rem;
+    height: 35rem;
     position: relative;
     overflow: hidden;
     border-radius: 50%;
-    position: relative;
     margin: 10px auto;
     float: none;
   }
+
   .about-me {
     width: 80%;
+    font-size: 2rem;
+  }
+
+  #navbar-elts li {
+    font-size: 300%;
   }
 }
